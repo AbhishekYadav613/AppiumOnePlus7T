@@ -39,11 +39,11 @@ public class MenuPage extends BasePage{
     @AndroidFindBy (xpath = "//android.view.View[@content-desc=\"ECG\"]")
     public WebElement ecg;
 
-/*
-    public void BookATest()
-    {
-        HomePage hp = new HomePage();
-        hp.loginButton.click();
-    }
-*/
+
+//    public void BookATest()
+//    {
+//        HomePage hp = new HomePage();
+//        hp.loginButton.click();
+//    }
+
 }

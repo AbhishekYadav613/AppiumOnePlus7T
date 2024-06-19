@@ -24,6 +24,10 @@ public class HomePage extends BasePage{
     public WebElement requestCallBack;
 
 
+    public void verifyLogin(){
+        loginButton.click();
+    }
+
 
 
 

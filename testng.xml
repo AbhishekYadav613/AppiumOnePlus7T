@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<!--    "deviceName","platformVersion","udid"-->
+
+    <test verbose="2" preserve-order="true"
+          name="Tyrocare Regression Suite - pixel 6A">
+        <parameter name="deviceName" value="emulator-5554"/>
+        <parameter name="platformVersion" value="13"/>
+        <parameter name="udid" value="emulator-5554"/>
+        <classes>
+            <class name="testCases.TC001"/>
+<!--            <class name="testCases.TC002"/>-->
+<!--            <class name="testCases.TC001"/>-->
+<!--            <class name="testCases.TC001"/>-->
+        </classes>
+    </test>
+
+
+<!--    <test verbose="2" preserve-order="true"-->
+<!--          name="Tyrocare Regression Suite &#45;&#45; One plus">-->
+<!--        <parameter name="deviceName" value="emulator-5554"/>-->
+<!--        <parameter name="platformVersion" value="13"/>-->
+<!--        <parameter name="udid" value="emulator-5554"/>-->
+<!--        <classes>-->
+<!--            <class name="testCases.TC001"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>
