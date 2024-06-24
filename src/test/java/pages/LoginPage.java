@@ -27,9 +27,6 @@ public class LoginPage extends BasePage{
 
     public void enterNumber()
     {
-        HomePage hp = new HomePage(driver);
-        hp.verifyLogin();
-        LoginPage lp = new LoginPage(driver);
-        lp.phoneNumberField.sendKeys(ReusableMethods.number());
+        phoneNumberField.sendKeys(ReusableMethods.number());
     }
 }

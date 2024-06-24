@@ -16,9 +16,8 @@ public class TC002 extends BaseTest{
     public void TC002() throws InterruptedException {
         HomePage hp = new HomePage(driver);
         LoginPage lp = new LoginPage(driver);
-        hp.loginButton.click();
-        lp.phoneNumberField.sendKeys(ReusableMethods.number());
-
+        hp.verifyLogin();
+        lp.enterNumber();
 
 
 

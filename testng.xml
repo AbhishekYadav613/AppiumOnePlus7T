@@ -3,32 +3,33 @@
 <suite name="All Test Suite">
 <!--    "deviceName","platformVersion","udid"-->
 
-    <test verbose="2" preserve-order="true"
-          name="Tyrocare Regression Suite - pixel 6A">
-        <parameter name="deviceName" value="OnePlus 7T"/>
-        <parameter name="platformVersion" value="12"/>
-        <parameter name="udid" value="59ff3a5f"/>
-        <classes>
+<!--    <test verbose="2" preserve-order="true"-->
+<!--          name="Tyrocare Regression Suite - pixel 6A">-->
+<!--        <parameter name="deviceName" value="OnePlus 7T"/>-->
+<!--        <parameter name="platformVersion" value="12"/>-->
+<!--        <parameter name="udid" value="59ff3a5f"/>-->
+<!--        <classes>-->
 <!--                <class name="testCases.TC001"/>-->
 <!--                <class name="testCases.TC002"/>-->
 <!--                <class name="testCases.TC003"/>-->
 <!--                <class name="testCases.TC004"/>-->
 <!--                <class name="testCases.TC005"/>-->
 <!--                <class name="testCases.TC006"/>-->
-            <class name="testCases.TC007"/>
-    <!--            <class name="testCases.TC001"/>-->
-        </classes>
-    </test>
-
-
-<!--    <test verbose="2" preserve-order="true"-->
-<!--          name="Tyrocare Regression Suite &#45;&#45; One plus">-->
-<!--        <parameter name="deviceName" value="emulator-5554"/>-->
-<!--        <parameter name="platformVersion" value="13"/>-->
-<!--        <parameter name="udid" value="emulator-5554"/>-->
-<!--        <classes>-->
-<!--            <class name="testCases.TC001"/>-->
+<!--            <class name="testCases.TC007"/>-->
+<!--    &lt;!&ndash;            <class name="testCases.TC001"/>&ndash;&gt;-->
 <!--        </classes>-->
 <!--    </test>-->
+
+
+    <test verbose="2" preserve-order="true"
+          name="Tyrocare Regression Suite -- One plus">
+        <parameter name="deviceName" value="emulator-5554"/>
+        <parameter name="platformVersion" value="13"/>
+        <parameter name="udid" value="emulator-5554"/>
+        <classes>
+    <class name="testCases.TC001"/>
+    <class name="testCases.TC002"/>
+        </classes>
+    </test>
 
 </suite>

@@ -2,7 +2,9 @@ package pages;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
+import jdk.jshell.execution.Util;
 import org.openqa.selenium.WebElement;
+import utils.ReusableMethods;
 
 public class HomePage extends BasePage{
 
@@ -25,6 +27,7 @@ public class HomePage extends BasePage{
 
 
     public void verifyLogin(){
+        ReusableMethods.verifyButton(loginButton);
         loginButton.click();
     }
 
